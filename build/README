@@ -1,0 +1,24 @@
+
+
+                * EXPath -- HTTP Client -- MarkLogic *
+
+                                README
+
+
+
+  This module is implemented using the built-in MarkLogic's HTTP
+Client functions (xdmp:http-get(), xdmp:http-post() and so on...)
+Support is not fully complete because of differences between those
+functions and this EXPath module.  I will write a precise list of what
+is supported and what is not.  Fell free to ask on the mailing list if
+you want more details; in the meanwhile, the source of the module
+contains useful comments.
+
+  To install the EXPath module, you just have to put it in you
+MarkLogic Server instance, like any other XQuery module.  That depends
+on how you configured you document database (queries can be put on the
+filesystem or on a dedicated queries database.)  See the MarkLogic
+documentation for details.
+
+  If you need any assistance, please join and ask on the EXPath
+mailing list <http://expath.org/lists.html>.
